@@ -1,0 +1,69 @@
+body {
+    margin: 20px;
+  }
+  
+  .parent1 {
+   padding: 50px;
+      border: 5px dashed red;
+  }
+  
+  
+  .parent1 nav {
+   background: blue;
+      padding: 20px;    
+       border: inherit;
+  }
+  
+  .parent1 .asdf {
+  }
+  
+  
+  .parent2 {
+    margin-top: 20px;
+    padding: 50px;
+      border: 5px solid blue;
+    display: flex;
+    justify-content: space-between;
+  }
+  .parent2_child {
+   border: 5px solid blue;
+     padding: 10px
+  }
+  
+  .parent2_child_asdf {
+    border: 5px solid red;
+  }
+  
+  
+  .parent1 + .parent2 {
+     border: 1px solid black;
+  }
+  
+  
+  .parent2 * {
+   background: yellow;
+  }
+  
+  
+  * {
+   content: ''; 
+ color: black;
+  }
+  .parent3 h1  {
+    color: beige;
+  
+
+  }
+  .parent3 p  {
+    color: silver;
+  }
+h1 + p {
+border: 1px  solid chocolate;
+}
+.parent3  h1 + p {
+    border: 1px solid red;
+}
+.parent3 h1, 
+.parent3 p {
+    color: rgb(255, 170, 0);
+}
