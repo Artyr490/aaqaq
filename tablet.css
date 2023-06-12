@@ -1,0 +1,85 @@
+@media screen and (max-width: 1017px) {
+ 
+  .phone-text {
+  display: none;
+ }
+ .phone{
+ display: none;
+ }
+ .nav-item {
+display: none;
+ }
+ .nav-item_main {
+  display: block;
+ }
+
+ .btn {
+  padding: 10px 5px;
+ }
+.cards-holder {
+  display: block;
+
+}
+.card {
+  width: 100%;
+  margin-top: 30px;
+}
+.header-suptitle::after ,
+.header-suptitle::before {
+  display: none;
+
+}
+.history-holder{
+  display: block;
+  
+}
+.imgages-1,
+.imgages-2,
+.imgages-3 {
+  position: static;
+  width: 100%;
+  
+}
+.right-btn {
+  white-space: nowrap;
+  padding: 10px 5px;
+}
+.block-holder {
+  display: block;
+
+}
+.left {
+  margin-bottom: 30px;
+}
+.burgers {
+  display: block;
+}
+.pizza {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.menu-item {
+  display: none;
+}
+.menu1 {
+  display: block;
+  width: auto;
+}
+.galery-left {
+  display: none;
+}
+.cook-content {
+  display: block;
+  
+}
+.cook-content img {
+  width: 100%;
+}
+.container {
+  margin: 0px 40px ;
+}
+.imgages-1 {
+   display: none;
+}
+}

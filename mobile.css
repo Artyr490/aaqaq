@@ -1,0 +1,27 @@
+@media screen and (max-width: 480px) {
+  .container {
+    margin: 0px 20px ;
+  }
+  .number-item {
+    margin-right: 10px;
+    text-align: center;
+    font-size: 33px;
+    color: #BC9060;
+  }
+  .history-number {
+ width: auto;
+  }
+  .history-desc {
+width: auto;
+  }
+.history-title {
+  width: auto;
+}
+.galery-up {
+display: block;
+}
+.galery-up img {
+  width: 100%;
+  }
+
+}
